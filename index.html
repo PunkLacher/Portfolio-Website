@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e7fd72dd6.js" crossorigin="anonymous"></script>
+
     <title>Todd Lacher Portfolio</title>
     <meta charset="UTF-8" />
 </head>
@@ -38,20 +40,52 @@
         <div class="about-me"><img class="avatar" src="images/profile.jpg" alt="Todd Lacher Profile Pic"></div>
         <div class="info">
             <h2><a name="about-me">About Me</a></h2>
-            <p>Born and raised in Southern California, I strive to learn everything I can about software development, coding and webdev.</p>
+            <p>Born and raised in Southern California, I strive to learn everything I can about software development,
+                coding and webdev.</p>
         </div>
     </section>
 
 
+    <div class="socials">
+        <i class="fa fa-brands fa-github fa-3x"></i> 
+        <i class="fa fa-brands fa-twitter fa-3x"></i>
+        <i class="fa fa-brands fa-instagram fa-3x"></i>
+        <i class="fa fa-brands fa-reddit fa-3x"></i>
+        <i class="fa fa-brands fa-facebook fa-3x"></i>
+        
+    </div>
     <section>
-        <div class="test"></div>
-        <div class="test"></div>
-        <div class="test" id="main"></div>
-        <div class="test"></div>
-        <div class="test"></div>
-        <div class="test"></div>
+        <form action="">
+            <h2>Contact Me</h2>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text id=first-name" name="first name" Value="John">
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text id=last-name" name="last name" Value="Smith">
+                </div>
+            </div>
+            <div class="input-section">
+                <input type="radio" id="office" name="office" value="office">
+                <label for="office">Office</label>
+                <input type="radio" id="remote" name="remote" value="remote">
+                <label for="remote">Remote</label>
+                <input type="radio" id="other" name="other" value="other">
+                <label for="other">Other</label>
+            </div>
+            <div class="input-section">
+                <input type="checkbox" id="contract" name="contract" value="contract">
+                <label for="contract">Contract Work</label>
+                <input type="checkbox" id="cfull-timeontract" name="full-time" value="full-time">
+                <label for="full-time">Full Time</label>
+                <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship">
+                <label for="sponsorship">Sponsorship</label>
+            </div>
+            <input class="button" type="submit" value="submit" name="submit" id="submit">
+        </form>
     </section>
-    <div class="circle"></div>
     <footer>
         <ul style="list-style-type: square">
             <li><a href="">About me</a></li>
